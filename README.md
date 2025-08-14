@@ -7,11 +7,11 @@ Permite registrar, iniciar sesión y proteger rutas mediante validación de toke
 
 ## Tecnologías utilizadas
 
-HTML
-JAVASCRIPT
-PHP 8+ MVC
-MySQL
-Firebase JWT PHP Library
+- **HTML**
+- **JavaScript**
+- **PHP 8+** (patrón MVC)
+- **MySQL**
+- **Firebase JWT PHP Library**
 
 ## Características
 
