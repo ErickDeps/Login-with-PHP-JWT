@@ -40,7 +40,7 @@ Firebase JWT PHP Library
 
 ---
 
-## ⚙️ Instalación
+## Instalación
 
 1. **Clonar el repositorio**
 
@@ -69,7 +69,7 @@ Firebase JWT PHP Library
 
 ---
 
-## 🔐 Seguridad implementada
+## Seguridad implementada
 
 - JWT con clave secreta (`$_ENV['JWT_SECRET_KEY']`).
 - Expiración de token para sesiones temporales.
