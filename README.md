@@ -51,25 +51,29 @@ Firebase JWT PHP Library
    ```
 
 2. **Instalar dependencias**
-   composer install
+
+   - Ejecutar: `composer install`
 
 3. **Configurar variables de entorno (.env)**
-   DB_CONNECTION=
-   DB_HOST=
-   DB_PORT=
-   DB_DATABASE=
-   DB_USERNAME=
-   DB_PASSWORD=
-   JWT_SECRET_KEY=
+
+   - `DB_CONNECTION=`
+   - `DB_HOST=`
+   - `DB_PORT=`
+   - `DB_DATABASE=`
+   - `DB_USERNAME=`
+   - `DB_PASSWORD=`
+   - `JWT_SECRET_KEY=`
 
 4. **Configurar archivo config/config.php**
-   define('URL_BASE', 'http://domain.com');
+   - `define('URL_BASE', 'http://domain.com');`
 
-## Seguridad implementada
+---
 
-JWT con clave secreta ($\_ENV['JWT_SECRET_KEY']).
-Expiración de token para sesiones temporales.
-Cookies HTTP-only para prevenir ataques XSS.
-SameSite=Strict para mitigar CSRF.
-Verificación de token en cada acceso a rutas privadas.
-Hash de contraseñas con password_hash y verificación con password_verify.
+## 🔐 Seguridad implementada
+
+- JWT con clave secreta (`$_ENV['JWT_SECRET_KEY']`).
+- Expiración de token para sesiones temporales.
+- Cookies HTTP-only para prevenir ataques XSS.
+- SameSite=Strict para mitigar ataques CSRF.
+- Verificación de token en cada acceso a rutas privadas.
+- Hash de contraseñas con `password_hash` y verificación con `password_verify`.
